@@ -28,3 +28,24 @@ body {
   border-radius: 4px;
   
 }
+
+
+/* BEGIN */
+
+.body {
+  display: flex;
+  flex-direction: column
+}
+
+.content  {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  flex-grow: 0;
+  flex-wrap: wrap;
+}
